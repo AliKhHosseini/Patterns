@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer Basic", "Observer Basic", "{3D495FA4-C2CB-4145-ACDD-563F781AE20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDemo", "1 Observer Basic\ObserverDemo\ObserverDemo.csproj", "{72E5A6BA-DF7E-420D-9125-BDAA22657868}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer Advanced", "Observer Advanced", "{92C2BA6E-EDA9-419B-BB18-B399C84CD6FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer Events", "Observer Events", "{5BC0B683-7157-42E7-8036-19F2C255751E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDemo", "2 Observer Advanced\ObserverDemo\ObserverDemo.csproj", "{CE128C66-979C-49A6-9A90-17BCFF6E710C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDemo", "3 Observer Events\ObserverDemo\ObserverDemo\ObserverDemo.csproj", "{E33AD661-665E-4017-934F-FCC9984B13E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E5A6BA-DF7E-420D-9125-BDAA22657868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E5A6BA-DF7E-420D-9125-BDAA22657868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E5A6BA-DF7E-420D-9125-BDAA22657868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E5A6BA-DF7E-420D-9125-BDAA22657868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE128C66-979C-49A6-9A90-17BCFF6E710C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE128C66-979C-49A6-9A90-17BCFF6E710C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE128C66-979C-49A6-9A90-17BCFF6E710C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE128C66-979C-49A6-9A90-17BCFF6E710C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33AD661-665E-4017-934F-FCC9984B13E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33AD661-665E-4017-934F-FCC9984B13E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33AD661-665E-4017-934F-FCC9984B13E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33AD661-665E-4017-934F-FCC9984B13E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72E5A6BA-DF7E-420D-9125-BDAA22657868} = {3D495FA4-C2CB-4145-ACDD-563F781AE20C}
+		{CE128C66-979C-49A6-9A90-17BCFF6E710C} = {92C2BA6E-EDA9-419B-BB18-B399C84CD6FB}
+		{E33AD661-665E-4017-934F-FCC9984B13E6} = {5BC0B683-7157-42E7-8036-19F2C255751E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DB403C2-87DF-430A-BB9F-3BF4770C2823}
+	EndGlobalSection
+EndGlobal
